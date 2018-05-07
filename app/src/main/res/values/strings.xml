@@ -4,15 +4,14 @@
     <string name="title">Anachronistic\nTranscription\nServices</string>
 
     <!-- Strings for contact information -->
-    <string name="address">147 Garson Way\nSuite 27 (in the back)\nCambridge, MA  02139</string>
+    <string name="address">147 Garson Way\nSuite 27\nCambridge, MA  02139</string>
     <string name="phone_number">617\-555\-2748</string>
     <string name="hours">Hours:\nTu, We, Fr 8:00\-4:00\nTh 8:00\-8:00\nSa 9:00\-11:45\nClosed Sunday\nClosed Mondays!</string>
 
     <!-- Strings for informational items on the business -->
-    <string name="text_one">Transcription from any medium onto the page of an Olivetti\-Underwood Lettera 32 typewriter.</string>
-    <string name="text_two">We work exclusively in black ink</string>
-    <string name="text_three">Upon request, we can work in longhand or printing (Pilot G\-2 07 pen)</string>
-    <string name="text_four">Dictation our specialty \- in\-person or over the phone</string>
-    <string name="text_five">Make an Appointment, or Stop By the Office \- Walk-Ins Welcome!</string>
+    <string name="text_one">Transcription from all media onto plain white paper using an Olivetti\-Underwood Lettera 32 typewriter</string>
+    <string name="text_two">We can work in longhand or printing using pen and paper</string>
+    <string name="text_three">Taking dictation is our specialty \- in\-person or over the phone</string>
+    <string name="text_four">Make an Appointment, or Stop By the Office \- Walk-Ins Welcome!</string>
 
 </resources>
