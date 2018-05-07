@@ -8,6 +8,7 @@
     tools:ignore="contentDescription"
     tools:layout_editor_absoluteY="81dp">
 
+    <!-- TextView:  Title -->
     <TextView
         android:id="@+id/title_text"
         android:layout_width="match_parent"
@@ -18,23 +19,25 @@
         android:paddingEnd="16dp"
         android:paddingLeft="16dp"
         android:paddingStart="16dp"
-
         android:text="@string/title"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:textStyle="bold"
         app:fontFamily="serif-monospace" />
 
+    <!-- ImageView:  Typewriter GIF -->
     <ImageView
         android:id="@+id/typewriter"
         android:layout_width="287dp"
         android:layout_height="214dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@id/title_text"
-        android:layout_marginBottom="4dp"
         android:src="@drawable/typewriter" />
 
+    <!-- LinearLayout:  contains two vertical LinearLayout's to hold business info -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,36 +46,41 @@
         android:layout_marginRight="8dp"
         android:layout_toEndOf="@id/typewriter"
         android:layout_toRightOf="@id/typewriter"
+        android:layout_alignBottom="@id/typewriter"
         android:background="#80CBC4">
 
+        <!-- LinearLayout:  left-hand layout to hold contact info -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical">
 
+            <!-- TextView:  business address -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="@string/address"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
                 app:fontFamily="@font/iceland" />
 
+            <!-- TextView:  business phone number -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="@string/phone_number"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
                 app:fontFamily="@font/iceland" />
 
+            <!-- TextView:  hours of operation -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="@string/hours"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
@@ -80,6 +88,7 @@
 
         </LinearLayout>
 
+        <!-- View:  separator between two LinearLayout's -->
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
@@ -87,16 +96,18 @@
             android:layout_marginTop="8dp"
             android:background="@android:color/black" />
 
+        <!-- LinearLayout:  right-hand layout to hold business description -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical">
 
+            <!-- TextView's that hold information items -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="@string/text_one"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
@@ -105,7 +116,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="@string/text_two"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
@@ -114,7 +125,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="@string/text_three"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
@@ -123,7 +134,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="@string/text_four"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
@@ -132,7 +143,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="4dp"
                 android:text="@string/text_five"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
@@ -140,6 +151,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
 
 </RelativeLayout>

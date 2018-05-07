@@ -1,12 +1,11 @@
 <resources>
+
     <string name="app_name">ATS!</string>
     <string name="title">Anachronistic\nTranscription\nServices</string>
 
-
-
     <!-- Strings for contact information -->
     <string name="address">147 Garson Way\nSuite 27 (in the back)\nCambridge, MA  02139</string>
-    <string name="phone_number">617-555-2748</string>
+    <string name="phone_number">617\-555\-2748</string>
     <string name="hours">Hours:\nTu, We, Fr 8:00\-4:00\nTh 8:00\-8:00\nSa 9:00\-11:45\nClosed Sunday\nClosed Mondays!</string>
 
     <!-- Strings for informational items on the business -->
@@ -15,7 +14,5 @@
     <string name="text_three">Upon request, we can work in longhand or printing (Pilot G\-2 07 pen)</string>
     <string name="text_four">Dictation our specialty \- in\-person or over the phone</string>
     <string name="text_five">Make an Appointment, or Stop By the Office \- Walk-Ins Welcome!</string>
-
-
 
 </resources>
