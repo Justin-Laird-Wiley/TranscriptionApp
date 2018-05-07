@@ -1,39 +1,20 @@
 <resources>
-    <string name="app_name">TranscriptionApp</string>
+    <string name="app_name">ATS!</string>
     <string name="title">Anachronistic\nTranscription\nServices</string>
 
-    <string name="some_text">
-        \tThis is a trivia quiz about historical events, as depicted on US postage
-        stamps, that occurred in the state of Massachusetts in the United States.\n
 
-        \tAfter each question, select the button next to the answer you think is correct; then click
-        the Total Score button at the end to have your score displayed in a pop-up message.\n
 
-        \tIf you like, you can enter your name in the field below, and it will be displayed with your
-        score at the end of the quiz.\n
-
-        \tThe check box exists to comply with project rubric \-\- functionally, it has nothing to do
-        with the quiz, and is there for your gratification and amusement.
-    </string>
-
+    <!-- Strings for contact information -->
     <string name="address">147 Garson Way\nSuite 27 (in the back)\nCambridge, MA  02139</string>
-
     <string name="phone_number">617-555-2748</string>
-    <string name="hours">Hours:\nTu, We, Fr 8:00\-4:00\nTh 8:00\-8:00
-        \nSa 9:00\-11:45\nClosed Sunday\nClosed Mondays!
-    </string>
+    <string name="hours">Hours:\nTu, We, Fr 8:00\-4:00\nTh 8:00\-8:00\nSa 9:00\-11:45\nClosed Sunday\nClosed Mondays!</string>
 
+    <!-- Strings for informational items on the business -->
     <string name="text_one">Transcription from any medium onto the page of an Olivetti\-Underwood Lettera 32 typewriter.</string>
-
-    <string name="text_two">We use the Olivetti\-Underwood Lettera 32 technology</string>
-
-    <string name="text_three">We work exclusively in black ink</string>
-
-    <string name="text_four">Upon request, we can work in longhand or printing (Pilot G\-2 07 pen)</string>
-
-    <string name="text_five">Dictation our specialty \- in\-person or over the phone</string>
-
-    <string name="text_six">Make an Appointment, or Stop By the Office \- Walk-Ins Welcome!</string>
+    <string name="text_two">We work exclusively in black ink</string>
+    <string name="text_three">Upon request, we can work in longhand or printing (Pilot G\-2 07 pen)</string>
+    <string name="text_four">Dictation our specialty \- in\-person or over the phone</string>
+    <string name="text_five">Make an Appointment, or Stop By the Office \- Walk-Ins Welcome!</string>
 
 
 

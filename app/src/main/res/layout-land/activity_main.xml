@@ -8,53 +8,42 @@
     tools:ignore="contentDescription"
     tools:layout_editor_absoluteY="81dp">
 
-
-    <LinearLayout
+    <TextView
+        android:id="@+id/title_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#80CBC4"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
 
-        <TextView
-            android:id="@+id/title_text"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_weight="1"
-            android:paddingLeft="16dp"
-            android:text="@string/title"
-            android:textColor="@android:color/black"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:fontFamily="serif-monospace" />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight=".5"
-            android:src="@drawable/logo" />
-    </LinearLayout>
+        android:text="@string/title"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="serif-monospace" />
 
     <ImageView
         android:id="@+id/typewriter"
         android:layout_width="287dp"
         android:layout_height="214dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/title_text"
         android:layout_marginBottom="4dp"
         android:src="@drawable/typewriter" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toEndOf="@id/typewriter"
         android:layout_toRightOf="@id/typewriter"
-        android:layout_alignTop="@id/typewriter"
-
-
-
-        >
+        android:background="#80CBC4">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -89,7 +78,6 @@
                 android:textSize="14sp"
                 app:fontFamily="@font/iceland" />
 
-
         </LinearLayout>
 
         <View
@@ -114,6 +102,14 @@
                 android:textSize="14sp"
                 app:fontFamily="@font/iceland" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/text_two"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:fontFamily="@font/iceland" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -138,15 +134,6 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:text="@string/text_five"
-                android:textColor="@android:color/black"
-                android:textSize="14sp"
-                app:fontFamily="@font/iceland" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:text="@string/text_six"
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
                 app:fontFamily="@font/iceland" />
